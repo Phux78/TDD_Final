@@ -1,6 +1,6 @@
-def validate_number(order):
-    if type(order) != int:
-        return "input integer"
+def validate_number(input_Espresso, input_Cappuccino, input_Latte, input_Mocca):
+    if type(input_Espresso) or type(input_Cappuccino) or type(input_Latte) or type(input_Mocca) != int:
+        return "Please input an integer"
 
 def display_price(input_Espresso, input_Cappuccino, input_Latte, input_Mocca, discount):
     Espresso_price = (input_Espresso * 55)
