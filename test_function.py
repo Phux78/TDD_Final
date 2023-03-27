@@ -134,7 +134,7 @@ def test_validate_discount_input_char_e():
     input_Latte = 0
     input_Mocca = 1
     discount = "e"
-    expected_result = "Please in put y or n"
+    expected_result = "Please input y or n"
     actual_result = display_price(input_Espresso, input_Cappuccino, input_Latte, input_Mocca, discount)
     assert expected_result == actual_result 
 
@@ -144,7 +144,7 @@ def test_validate_discount_input_O_point_one():
     input_Latte = 0
     input_Mocca = 1
     discount = 0.1
-    expected_result = "Please in put y or n"
+    expected_result = "Please input y or n"
     actual_result = display_price(input_Espresso, input_Cappuccino, input_Latte, input_Mocca, discount)
     assert expected_result == actual_result 
 
@@ -154,7 +154,7 @@ def test_validate_discount_input_minus_one():
     input_Latte = 0
     input_Mocca = 1
     discount = -1
-    expected_result = "Please in put y or n"
+    expected_result = "Please input y or n"
     actual_result = display_price(input_Espresso, input_Cappuccino, input_Latte, input_Mocca, discount)
     assert expected_result == actual_result 
 
@@ -164,6 +164,6 @@ def test_validate_discount_input_integer():
     input_Latte = 0
     input_Mocca = 1
     discount = 1
-    expected_result = "Please in put y or n"
+    expected_result = "Please input y or n"
     actual_result = display_price(input_Espresso, input_Cappuccino, input_Latte, input_Mocca, discount)
     assert expected_result == actual_result 
