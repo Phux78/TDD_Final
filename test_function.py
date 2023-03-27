@@ -1,7 +1,7 @@
 from function import validate_number, display_price
 import pytest
 
-def test_input_char_a():
+def test_validate_input_char_a():
     input_Espresso = "a"
     input_Cappuccino = 0
     input_Latte = 0
@@ -10,7 +10,7 @@ def test_input_char_a():
     actual_result = validate_number(input_Espresso, input_Cappuccino, input_Latte, input_Mocca)
     assert expected_result == actual_result
 
-def test_input_char_O_point_one():
+def test_validate_input_O_point_one():
     input_Espresso = 0.1
     input_Cappuccino = 0
     input_Latte = 0
@@ -19,7 +19,7 @@ def test_input_char_O_point_one():
     actual_result = validate_number(input_Espresso, input_Cappuccino, input_Latte, input_Mocca)
     assert expected_result == actual_result
 
-def test_input_char_minus_one():
+def test_validate_input_minus_one():
     input_Espresso = -1
     input_Cappuccino = 0
     input_Latte = 0

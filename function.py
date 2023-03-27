@@ -16,5 +16,5 @@ def display_price(input_Espresso, input_Cappuccino, input_Latte, input_Mocca, di
     elif discount == "n":
         return total_price
     else:
-        return "Please in put y or n"
+        return "Please input y or n"
 
